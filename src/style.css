@@ -26,8 +26,7 @@ h2 {
   gap: 5rem;
 }
 
-.table 
-{
+.table {
   height: 40vh;
   overflow-y: scroll;
 }
