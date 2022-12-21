@@ -16,7 +16,6 @@ addScore.addEventListener('submit', (e) => {
 
 refreshBtn.addEventListener('click', async () => {
   const scores = await getScore();
-  console.log(scores);
   scores.forEach((score) => {
     scoreBoard.innerHTML += `
     <tr>

@@ -39,13 +39,12 @@ h2 {
 }
 
 #score-table {
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   font-size: 2rem;
   width: 80vh;
   height: 50px;
-
   border: 5px solid black;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 td,
