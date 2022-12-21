@@ -14,38 +14,22 @@
         <div class="leftCtn">
             <header class="recent-scores-head">
             <h2>Recent scores</h2>
-            <button type="submit" class="refreshBtn">Refresh</button>
+            <button type="submit" class="refreshBtn" id="refresh-btn">Refresh</button>
             </header>
-            <table>
+            <table id="score-table">
                 <tr>
-                <th style="width: 15%;">Names</th>
-                <th>scores</th>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>2.0</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>78</td>
-                </tr>
-                <tr>
-                    <td>Name</td>
-                    <td>12.5</td>
+                    <th>Name</th>
+                    <th>Score</th>
                 </tr>
             </table>
         </div>
         <div class="rightCtn">
             <h2>Add your score</h2>
-            <div class="scores-form">
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your score">
+            <form class="scores-form" id="add-score">
+                <input type="text" placeholder="Your name" id="player-name">
+                <input type="text" placeholder="Your score" id="player-score">
                 <button type="submit" class="addBtn">Submit</button>
-            </div>
+            </form>
         </div>
     </div>
 
