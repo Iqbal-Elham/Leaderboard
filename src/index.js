@@ -14,7 +14,7 @@ addScore.addEventListener('submit', (e) => {
   playerScore.value = '';
 });
 
-refreshBtn.addEventListener('click', async (e) => {
+refreshBtn.addEventListener('click', async () => {
   const scores = await getScore();
   scoreBoard.innerHTML = '';
   scores.forEach((score) => {
