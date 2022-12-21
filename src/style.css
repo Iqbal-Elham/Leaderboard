@@ -19,11 +19,17 @@ h2 {
 }
 
 .container {
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+
+.table 
+{
+  height: 40vh;
+  overflow-y: scroll;
 }
 
 .recent-scores-head {
