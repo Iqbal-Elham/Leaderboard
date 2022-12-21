@@ -54,7 +54,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: rgb(189, 15, 15);
 }
 
 .scores-form {
