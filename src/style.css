@@ -19,11 +19,16 @@ h2 {
 }
 
 .container {
-  height: 60vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+
+.table {
+  height: 40vh;
+  overflow-y: scroll;
 }
 
 .recent-scores-head {
@@ -38,11 +43,13 @@ h2 {
   font-size: 24px;
 }
 
-table {
+#score-table {
   border-collapse: collapse;
   font-size: 2rem;
   width: 80vh;
+  height: 50px;
   border: 5px solid black;
+  overflow-y: scroll;
 }
 
 td,
@@ -52,7 +59,7 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: rgb(189, 15, 15);
 }
 
 .scores-form {
