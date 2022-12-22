@@ -1,5 +1,5 @@
 const postScore = async (user, score) => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/sNLypj2W3eNffYuzUA4N/scores', {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nYpK4VZNS45ZELeCnGP3/scores', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -12,7 +12,7 @@ const postScore = async (user, score) => {
 };
 
 const getScore = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/sNLypj2W3eNffYuzUA4N/scores');
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nYpK4VZNS45ZELeCnGP3/scores');
   const data = await response.json();
   return data.result;
 };
