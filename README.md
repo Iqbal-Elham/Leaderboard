@@ -3,10 +3,10 @@
 
 <div align="center">
 
-  <img src="./assets/images/my-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/images/my-logo.png" alt="logo" width="140"  height="auto" style='border-radius:30%'/>
   <br/>
 
-  <h3><b>Iqbal Elham</b></h3>
+  <h3><b>Full Stack Developer</b></h3>
 
 </div>
 

@@ -16,13 +16,15 @@ addScore.addEventListener('submit', (e) => {
 
 refreshBtn.addEventListener('click', async () => {
   const scores = await getScore();
+  let counter = 0;
   scoreBoard.innerHTML = '';
   scores.forEach((score) => {
     scoreBoard.innerHTML += `
-    <tr>
-    <td>${score.user}</td>
-    <td>${score.score}</td>
-    </tr>
+    <div class="table-elements">
+    <p>${counter += 1}.</p>
+    <p>${score.user}</p>
+    <p>${score.score}</p>
+    </div>
   `;
   });
 });
