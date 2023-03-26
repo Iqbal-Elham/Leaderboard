@@ -39,7 +39,7 @@
 # 📖 [Leaderboard] <a name="about-project"></a>
 
 
-**[To Do List]** is a Single Page JavaScript project, using webpack and ES6 features, notably modules.
+**[Leaderboard]** is a Single Page JavaScript project, using webpack and ES6 features, notably modules. Which we can add name and score to API and by pressing the refresh button we can fetch all scores from API and Display them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,7 +68,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://iqbal-elham.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,9 +90,9 @@ and follow these steps.
 Clone this repository to your desired folder:
 
 1. Download the **Zip** file or clone the repo with:
-```bash git clone https://github.com/Iqbal-Elham/personal_portfolio.git ``` 
+```bash git clone https://github.com/Iqbal-Elham/Leaderboard.git ``` 
 2. To access cloned directory run: 
-```bash cd Hello_micorverse ``` 
+```bash cd Leaderboard ``` 
 3. Open it with the live server 
 
 ### Install
